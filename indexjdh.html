@@ -3,10 +3,11 @@
   <head>
     <title>Hancock Branding by Communications</title>
     <meta name="Hancock Branding by Communications" content="Website" />
-    <meta
+    <!-- <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, initial-scale=1"
-    />
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,17 +17,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="bg-color text-light text-lg-start text-center pt-3 pb-3">
-      <h5 class="ps-5">Hancock Branding by Communications</h5>
+    <header data-bs-theme="dark">
+      <div>
+        <div class="container-fluid text-lg-start text-center">
+          <div class="row">
+            <div class="bg-color text-light col-12 pt-3 pb-3">
+              <h5 class="ps-5">Hancock Branding by Communications</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <div id="Cover" class="container-fluid cover">
-      <div class="row" style="height: 100vh">
-        <div></div>
-        <div style="margin-top: 250px">
-          <div>
+    <div id="Cover" class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-3 col-lg-4">
+          <div class="cover-spacer">
             <h5
-              class="ps-5 pt-2 pb-2 mt-4 bg-color-opacity text-white"
-              style="width: 350px; font-weight: 100"
+              class="ps-5 pt-2 pb-3 mt-4 bg-color-opacity text-white"
+              style="min-width: 160px"
             >
               An innovative advertising firm based in Lexington, KY.
             </h5>
@@ -60,20 +68,13 @@
             proven steps to enhance your brand presence, digital marketing, and
             traditional advertising
           </p>
-          <img
-            height="150"
-            width="350"
-            class="img-resize-logo"
-            src="https://placehold.co/350x150?text=Placeholder+Image"
-          />
+          <img src="https://placehold.co/350x150?text=Placeholder+Image" />
         </div>
         <div class="col-12 col-lg-6">
-          <img
-            class="img-resize-about"
-            height="500"
-            width="700"
-            src="https://placehold.co/1920x1080?text=Placeholder+Image"
-          />
+          <!-- <img
+            class=""
+            src="https://placehold.co/700x500?text=Placeholder+Image"
+          /> -->
           <h5>Brian Wright, Larry Smith and Jeff Hancock</h5>
         </div>
       </div>
@@ -161,12 +162,7 @@
           <h1 class="text-center mb-4">Clients</h1>
         </div>
         <div class="col-12 d-flex justify-content-center mb-4">
-          <img
-            class="img-resize"
-            height="600px"
-            width="800px"
-            src="https://placehold.co/1920x1080?text=Placeholder+Image"
-          />
+          <img src="https://placehold.co/800x600?text=Placeholder+Image" />
         </div>
       </div>
       <div class="row">
@@ -287,11 +283,11 @@
       <!-- </div> -->
     </div>
     <footer id="footer" class="bg-color"></footer>
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJzlnA3eG4n52RwNC3RS1S3SSQWufA3rd8WB0P5yF5UboXeKNUJtE"

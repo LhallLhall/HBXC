@@ -1,3 +1,77 @@
-/* .bg-image {
-    background-image: ;
-} */
+#Cover {
+    height: 100vh;
+    background-image: url("https://placehold.co/1920x1080?text=Image+Not+Found");
+}
+
+#About {
+    height: 75vh;
+    width: 75vw;
+}
+
+#Services {
+    height: 75vh;
+}
+
+#Work {
+    height: 80vh;
+}
+#Clients {
+    height: 80vh;
+}
+
+#footer {
+    height: 20vh;
+}
+
+.color {
+    color: #28466b;
+}
+
+.bg-color {
+    background-color: #28466b;
+}
+
+.bg-color-opacity {
+    background-color: #28466b;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 992px) {
+    .img-resize {
+        height: 200px;
+        width: 400px;
+    }
+    #Services {
+        height: 140vh;
+    }
+    .img-resize-about {
+        height: 300px;
+        width: 500px;
+    }
+    .img-resize-logo {
+        height: 100px;
+        width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .img-resize-about {
+        height: 200px;
+        width: 265px
+    }
+    #Work {
+        height: 40vh;
+    }
+    
+    #Services {
+        height: 120vh;
+    }
+
+    #Clients {
+        height: 50vh;
+    }
+  }
+
+.cover-spacer {
+    margin-top: 350px;
+}
