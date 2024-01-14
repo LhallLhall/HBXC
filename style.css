@@ -1,48 +1,62 @@
 #Cover {
     height: 100vh;
-    background-image: url("https://placehold.co/1920x1080?text=Image+Not+Found");
+    background-image: url("imgs/@HBxC_StreetSignAdobeStock_139154492.jpg");
+    background-position: 45% 45%;
+    
 }
 
-#About {
-    height: 75vh;
-    width: 75vw;
-}
+
 
 #Services {
-    height: 75vh;
+    margin-top: 200px;
 }
 
 #Work {
-    height: 80vh;
+    margin-top: 200px;
 }
+
 #Clients {
-    height: 80vh;
+    margin-top: 200px;
+}
+
+#Contact {
+    margin-top: 200px;
 }
 
 #footer {
-    height: 20vh;
+    height: 120px;
 }
 
 .color {
-    color: #28466b;
+    color: #395277;
 }
 
 .bg-color {
-    background-color: #28466b;
+    background-color: #395277;
 }
 
 .bg-color-opacity {
-    background-color: #28466b;
+    background-color: #395277;
     opacity: 0.7;
 }
 
+@media screen and (max-width: 1490px) {
+    .img-resize-about {
+        height: 300px;
+        width: 500px
+    }
+}
+
 @media screen and (max-width: 992px) {
-    .img-resize {
+    /* .img-resize {
         height: 200px;
         width: 400px;
-    }
-    #Services {
+    } */
+    /* #Services {
         height: 140vh;
+    } */
+    .ul-services {
+        padding-left: none;
     }
     .img-resize-about {
         height: 300px;
@@ -54,21 +68,44 @@
     }
   }
 
+  @media screen and (max-width: 800px) {
+    .img-resize {
+        height: 600px;
+        width: 600px;
+    } 
+  }
+
   @media screen and (max-width: 600px) {
+    .img-resize {
+        height: 400px;
+        width: 400px;
+    } 
+
     .img-resize-about {
         height: 200px;
         width: 265px
     }
-    #Work {
-        height: 40vh;
-    }
-    
-    #Services {
-        height: 120vh;
-    }
-
-    #Clients {
+    /* #Work {
         height: 50vh;
+    } */
+    
+    /* #Services {
+        height: 140vh;
+    } */
+
+    /* #Clients {
+        height: 50vh;
+    } */
+  }
+
+  @media screen and (max-width: 471px) {
+
+  }
+
+  @media screen and (max-width: 371px) {
+    .img-services {
+        height: 250px;
+        width: 250px;
     }
   }
 

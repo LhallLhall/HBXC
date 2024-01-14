@@ -17,7 +17,7 @@
   </head>
   <body>
     <header class="bg-color text-light text-lg-start text-center pt-3 pb-3">
-      <h5 class="ps-5">Hancock Branding by Communications</h5>
+      <h5 class="ps-lg-5">Hancock Branding by Communications</h5>
     </header>
     <div id="Cover" class="container-fluid cover">
       <div class="row" style="height: 100vh">
@@ -34,7 +34,7 @@
 
           <a
             href="#contact"
-            class="ms-5 mt-4 btn btn-lg bg-color-opacity text-white border-white"
+            class="ms-5 mt-4 btn btn-lg bg-color-opacity text-white"
             style="border-radius: 0; font-weight: 100"
           >
             Contact us
@@ -64,7 +64,7 @@
             height="150"
             width="350"
             class="img-resize-logo"
-            src="https://placehold.co/350x150?text=Placeholder+Image"
+            src="imgs/image001 (1).png"
           />
         </div>
         <div class="col-12 col-lg-6">
@@ -72,7 +72,7 @@
             class="img-resize-about"
             height="500"
             width="700"
-            src="https://placehold.co/1920x1080?text=Placeholder+Image"
+            src="imgs/JRP_2023-HBxC-Team.jpg"
           />
           <h5>Brian Wright, Larry Smith and Jeff Hancock</h5>
         </div>
@@ -84,31 +84,46 @@
       </h1>
 
       <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-lg-4 text-center text-lg-left">
+        <div class="col-12 col-lg-4 text-center text-lg-start">
           <div class="text-center">
-            <img src="https://placehold.co/350x350?text=Placeholder+Image" />
-            <h3 class="m-1">Creative Services and Branding</h3>
+            <img
+              height="350"
+              class="img-services"
+              width="350"
+              src="imgs/HBxC-CreativeServices-Graphic-12-8-23.jpg"
+            />
+            <h3 class="m-1">Creative Services</h3>
           </div>
           <!-- <p>Placeholder text for section description.</p> -->
           <div class="col-10 offset-1 text-center">
-            <ul>
+            <ul class="ul-services">
               <li class="pb-1 pt-1">
-                Public Relations and Corporate Communications
+                Design and development of all types of video, audio, and
+                fixed/printed assets
               </li>
-              <li class="pb-1 pt-1">Programs and Events</li>
-              <li class="pb-1 pt-1">Media Planning and Budgeting</li>
+              <li class="pb-1 pt-1">
+                All media forms and formats both traditional and digital
+              </li>
+              <li class="pb-1 pt-1">
+                Internal development and supervision of outsource resources
+              </li>
             </ul>
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-lg-left">
+        <div class="col-12 col-lg-4 text-center text-lg-start">
           <div class="text-center">
-            <img src="https://placehold.co/350x350?text=Placeholder+Image" />
+            <img
+              height="350"
+              class="img-services"
+              width="350"
+              src="imgs/HBxC-CommunciationsServices-Graphics-12-8-23.jpg"
+            />
             <h3 class="m-1">Communications Reach</h3>
           </div>
           <!-- <p>Placeholder text for section description.</p> -->
           <div class="col-10 offset-1 text-center">
-            <ul>
+            <ul class="ul-services">
               <li class="pb-1 pt-1">
                 Public Relations and Corporate Communications
               </li>
@@ -118,19 +133,26 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-center text-lg-left">
+        <div class="col-12 col-lg-4 text-center text-lg-start">
           <div class="text-center">
-            <img src="https://placehold.co/350x350?text=Placeholder+Image" />
+            <img
+              height="350"
+              class="img-services"
+              width="350"
+              src="imgs/HBxC-BizStrategyServices-Graphic-12-8-23.jpg"
+            />
             <h3 class="m-1">Business Innovation</h3>
           </div>
           <!-- <p>Placeholder text for section description.</p> -->
           <div class="col-10 offset-1 text-center">
-            <ul>
+            <ul class="ul-services">
               <li class="pb-1 pt-1">
-                Public Relations and Corporate Communications
+                Strategy and Planning, revenue-facing solutions
               </li>
-              <li class="pb-1 pt-1">Media Planning and Budgeting</li>
-              <li class="pb-1 pt-1">Programs and Events</li>
+              <li class="pb-1 pt-1">
+                Customer-led and technology supported innovation
+              </li>
+              <li class="pb-1 pt-1">Analysis and Reporting</li>
             </ul>
           </div>
         </div>
@@ -165,7 +187,7 @@
             class="img-resize"
             height="600px"
             width="800px"
-            src="https://placehold.co/1920x1080?text=Placeholder+Image"
+            src="imgs/HBxC-CleintLogos-12-8-23.jpg"
           />
         </div>
       </div>
@@ -222,15 +244,21 @@
         </div>
       </div>
     </div>
-    <div id="contact" class="container mb-5">
+    <div id="Contact" class="container mb-5">
       <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 order-1 order-lg-0">
           <div class="container mt-5">
-            <form id="emailForm">
+            <form
+              target="_blank"
+              id="emailForm"
+              action="https://formsubmit.co/hall.logan@2819studios.com"
+              method="POST"
+            >
               <div class="row">
                 <div class="col-12 col-lg-6 form-group">
                   <label for="inputName">Name</label>
                   <input
+                    name="name"
                     type="text"
                     class="form-control"
                     id="inputName"
@@ -241,6 +269,7 @@
                 <div class="col-12 col-lg-6 form-group">
                   <label for="inputEmail">Email address</label>
                   <input
+                    name="email"
                     type="email"
                     class="form-control"
                     id="inputEmail"
@@ -252,6 +281,7 @@
               <div class="form-group">
                 <label for="inputMessage">Message</label>
                 <textarea
+                  name="message"
                   class="form-control"
                   id="inputMessage"
                   rows="4"
@@ -275,7 +305,7 @@
             </form>
           </div>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 text-center text-sm-start order-lg-1">
           <h3 class="mt-5">Contact Us Now</h3>
           <p>
             Fill out the form below to get in touch with our Advertising Agency.
@@ -303,7 +333,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <script>
+    <!-- <script>
       document
         .getElementById("emailForm")
         .addEventListener("submit", function (event) {
@@ -359,6 +389,6 @@
         var re = /\S+@\S+\.\S+/;
         return re.test(email);
       }
-    </script>
+    </script> -->
   </body>
 </html>
