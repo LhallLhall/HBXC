@@ -7,12 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, initial-scale=1"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -21,24 +16,16 @@
     </header>
     <div id="Cover" class="container-fluid cover">
       <div class="row" style="height: 100vh">
-        <div></div>
-        <div style="margin-top: 250px">
-          <div>
+        <!-- <div></div> -->
+        <div class="coverSpacer">
+          <div class="d-flex justify-content-md-center d-sm-block">
             <h5
-              class="ps-5 pt-2 pb-2 mt-4 bg-color-opacity text-white"
-              style="width: 350px; font-weight: 100"
+              class="ps-2 ps-md-5 p-2 me-2 mt-4 bg-color-opacity text-white outline sizing text-center text-sm-start"
             >
               An innovative advertising firm based in Lexington, KY.
             </h5>
           </div>
 
-          <a
-            href="#Contact"
-            class="ms-5 mt-4 btn btn-lg bg-color-opacity text-white"
-            style="border-radius: 0; font-weight: 100"
-          >
-            Contact us
-          </a>
         </div>
       </div>
     </div>
@@ -46,34 +33,46 @@
     <div id="About" class="container mt-5">
       <div class="row">
         <div class="col-12 col-lg-6">
-          <h1 class="mt-3">About us</h1>
+          <h3 class="mt-1 text-center, text-lg-start">
+            We elevate brands by providing innovative and imaginative
+            communications.
+          </h3>
           <br />
-          <p>
-            Hancock Branding by Communications is a full service marketing firm
-            lead by award-winning creatives, business strategic experts
-            (something here about business communications) and market research
-            specialist. Plus, we have been told that we are fun to be with and
-            we’re good listeners.
+          <p class="text-center, text-lg-start" >
+            Honoring the customer and demonstrating some love, will successfully
+            position a business for growth and profit. This may be a simple
+            idea, but it is one that needs knowledge and craftsmanship to
+            communicate a message of truth and authenticity.
             <br />
+            We offer a complete toolkit of creative services, social media,
+            corporate communications, and marketing strategy to develop your
+            core business and expand into new revenue opportunities.
             <br />
-            Contact us today to schedule a complimentary meeting to discuss our
-            proven steps to enhance your brand presence, digital marketing, and
-            traditional advertising
+            We take considerable pride in the work we deliver as befitting our
+            experience and maturity. We ask good questions and intently listen
+            to you, your team, customers, prospects, and other important
+            constituents. This ensures a match between what customers want, and
+            your unique and superior solution.
+            <br />
+            The result are high touch professional services to ensure your
+            satisfaction in all aspects of planning, delivery, and performance
+            to grow your business. We welcome the opportunity to do some great
+            work together.
           </p>
           <img
-            height="150"
-            width="350"
+            height="75"
+            width="200"
             class="img-resize-logo d-none d-lg-block"
             src="imgs/image001 (1).png"
           />
         </div>
         <div class="col-12 col-lg-6 text-center text-sm-start mt-3 mt-sm-0">
           <img
-            class="img-resize-about"
+            class="ms-lg-5 img-resize-about"
             width="700"
             src="imgs/JRP_2023-HBxC-Team.jpg"
           />
-          <h5>Brian Wright, Larry Smith and Jeff Hancock</h5>
+          <h5 class="ms-lg-5">Brian Wright, Larry Smith and Jeff Hancock</h5>
         </div>
       </div>
     </div>
@@ -83,7 +82,7 @@
       </h1>
 
       <div class="row justify-content-center">
-        <div class="col-12 col-lg-4 text-center text-lg-start">
+        <div class="col-12 col-lg-4 text-start">
           <div class="text-center">
             <img
               height="350"
@@ -94,7 +93,7 @@
             <h3 class="m-1">Creative Services</h3>
           </div>
           <!-- <p>Placeholder text for section description.</p> -->
-          <div class="col-10 offset-1 text-center">
+          <div class="col-10 offset-1 text-start">
             <ul class="ul-services">
               <li class="pb-1 pt-1">
                 Design and development of all types of video, audio, and
@@ -110,7 +109,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-center text-lg-start">
+        <div class="col-12 col-lg-4 text-start">
           <div class="text-center">
             <img
               height="350"
@@ -121,7 +120,7 @@
             <h3 class="m-1">Communications Reach</h3>
           </div>
           <!-- <p>Placeholder text for section description.</p> -->
-          <div class="col-10 offset-1 text-center">
+          <div class="col-10 offset-1 text-start">
             <ul class="ul-services">
               <li class="pb-1 pt-1">
                 Public Relations and Corporate Communications
@@ -132,7 +131,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-center text-lg-start">
+        <div class="col-12 col-lg-4 text-start">
           <div class="text-center">
             <img
               height="350"
@@ -142,8 +141,7 @@
             />
             <h3 class="m-1">Business Innovation</h3>
           </div>
-          <!-- <p>Placeholder text for section description.</p> -->
-          <div class="col-10 offset-1 text-center">
+          <div class="col-10 offset-1 text-start">
             <ul class="ul-services">
               <li class="pb-1 pt-1">
                 Strategy and Planning, revenue-facing solutions
@@ -195,49 +193,75 @@
           id="carouselExampleSlidesOnly"
           class="carousel slide"
           data-bs-ride="carousel"
+          style="height: 670px;"
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <h4 class="d-block w-100 text-center">
-                Brian represented us during a period of extreme crisis. Our
-                international corporation was facing a federal investigation. He
-                navigated us through national media attention with calm
-                expertise
-              </h4>
-              <br />
-              <h4 class="d-block w-100 text-center">
-                Paul Orberson <br />
-                FHTM
-              </h4>
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h4>
+                    Larry has been a mentor for over 20 years, first as a boss
+                    at US Interactive where he taught me how to drink from a
+                    firehose during the first dot com boom. At Avis, Larry
+                    helped us understand how to activate data and leverage a
+                    services- based marketing strategy long before any of our
+                    competitors knew what was hitting them. (Our web sites
+                    consistently outperformed the industry in both market share
+                    and JD Power customer satisfaction ratings). At
+                    Sotheby&#39;s Larry mapped out our original CRM strategy,
+                    laying the foundation for a digital transformation strategy
+                    that brought in record numbers of new customers. Larry&#39;s
+                    counsel is indispensable.
+                  </h4>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <h5>
+                    Head of Growth, Chartis -
+                    <cite title="Source Title">John Peebles</cite>
+                  </h5>
+                </figcaption>
+              </figure>
             </div>
             <div class="carousel-item">
-              <h4 class="d-block w-100 text-center">
-                We were looking for additional marketing outreach and Brian
-                secured a contract with one of our local television stations.
-                Our Ask the Expert interviews air multiple times every week,
-                giving us the opportunity to provide viewers with extended
-                segments of valuable content, not possible through limited
-                commercials. Brian’s media connections secured us a low
-                advertising rate ahead of other competing firms.
-              </h4>
-              <br />
-              <h4 class="d-block w-100 text-center">
-                Jack Russell <br />
-                Russell Capital Management
-              </h4>
+              
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h4>
+                    We were looking for additional marketing outreach and Brian
+                    secured a contract with one of our local television
+                    stations. Our Ask the Expert interviews air multiple times
+                    every week, giving us the opportunity to provide viewers
+                    with extended segments of valuable content, not possible
+                    through limited commercials. Brian’s media connections
+                    secured us a low advertising rate ahead of other competing
+                    firms.
+                  </h4>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <h5>
+                    Russell Capital Management -
+                    <cite title="Source Title">Jack Russell</cite>
+                  </h5>
+                </figcaption>
+              </figure>
             </div>
             <div class="carousel-item">
-              <h4 class="d-block w-100 text-center">
-                Brian represented us during a period of extreme crisis. Our
-                international corporation was facing a federal investigation. He
-                navigated us through national media attention with calm
-                expertise
-              </h4>
-              <br />
-              <h4 class="d-block w-100 text-center">
-                Paul Orberson <br />
-                FHTM
-              </h4>
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h4>
+                    Brian represented us during a period of extreme crisis. Our
+                    international corporation was facing a federal
+                    investigation. He navigated us through national media
+                    attention with calm expertise
+                  </h4>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <h5>
+                    FHTM -
+                    <cite title="Source Title">Paul Orberson</cite>
+                  </h5>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>
@@ -306,10 +330,11 @@
         </div>
         <div class="col-12 col-lg-6 order-lg-1">
           <h3 class="mt-5">Contact Us Now</h3>
-          <p>
-            Fill out the form below to get in touch with our Advertising Agency.
-            We are here to help you with all your branding and communication
-            needs
+          <h5 style="font-weight: 500;">
+            We would love to hear from you and hope you will connect via this email form. <br/>
+            Call or text us at: <a href="tel:3476731850">(347) 673-1850</a><br/>
+            We are also available on Facebook: <a href="https://www.facebook.com/HBXCIO">https://www.facebook.com/HBXCIO</a>
+          </h5>
           </p>
         </div>
       </div>
@@ -319,16 +344,6 @@
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJzlnA3eG4n52RwNC3RS1S3SSQWufA3rd8WB0P5yF5UboXeKNUJtE"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
     <!-- Google tag (gtag.js) -->
@@ -345,5 +360,6 @@
 
       gtag("config", "G-7XM71R5ETF");
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
