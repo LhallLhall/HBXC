@@ -2,7 +2,8 @@
     height: 100vh;
     background-image: url("imgs/@HBxC_StreetSignAdobeStock_139154492.jpg");
     background-position: 45% 45%;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -42,7 +43,7 @@
 
 @media screen and (max-width: 1490px) {
     .img-resize-about {
-        height: 300px;
+        /* height: 300px; */
         width: 500px
     }
 }
@@ -59,7 +60,7 @@
         padding-left: none;
     }
     .img-resize-about {
-        height: 300px;
+        /* height: 300px; */
         width: 500px;
     }
     .img-resize-logo {
@@ -73,6 +74,9 @@
         height: 600px;
         width: 600px;
     } 
+    #Cover {
+        background-position: 45% 50%;
+    }
   }
 
   @media screen and (max-width: 600px) {
@@ -82,8 +86,8 @@
     } 
 
     .img-resize-about {
-        height: 200px;
-        width: 265px
+        /* height: 200px; */
+        width: 350px
     }
     /* #Work {
         height: 50vh;
@@ -106,6 +110,13 @@
     .img-services {
         height: 250px;
         width: 250px;
+    }
+    .img-resize {
+        width: 230px;
+        height: 230px;
+    }
+    .img-resize-about {
+        width: 300px;
     }
   }
 
