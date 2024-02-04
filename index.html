@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GKRHDEQFZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5GKRHDEQFZ');
+  </script>
     <title>Hancock Branding by Communications</title>
     <meta name="Hancock Branding by Communications" content="Website" />
     <meta
@@ -10,7 +19,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="over">
+    <script>
+      function deleteFullScreenGif () {
+        const gifElement = document.getElementById("gif")
+        const opacity = document.getElementById("opacity")
+        
+        if (gifElement) {
+          gifElement.classList.add("hidden")
+          opacity.classList.add("bg-color-opacity")
+        }
+        document.body.classList.remove("over")
+      }
+
+      // Call the function when the page loads
+      window.onload = setTimeout(deleteFullScreenGif, 3250)
+  </script>
+  <img id="gif" src="imgs/HBxCWebsite24CoverImageSizeforLogan.gif" class="gif">
     <header class="bg-color text-light text-lg-start text-center pt-3 pb-3">
       <h5 class="ps-lg-5">Hancock Branding by Communications</h5>
     </header>
@@ -19,10 +44,11 @@
         <!-- <div></div> -->
         <div class="coverSpacer">
           <div class="d-flex justify-content-md-center d-sm-block">
-            <h5
-              class="ps-2 ps-md-5 p-2 me-2 mt-4 bg-color-opacity text-white outline sizing text-center text-sm-start"
+            <h5 id="opacity"
+              class="ps-2 ps-md-5 p-2 me-2 mt-4  text-white outline sizing text-center text-sm-start"
             >
-              An innovative advertising firm based in Lexington, KY.
+            We elevate brands by providing innovative and imaginative
+            communications.
             </h5>
           </div>
 
@@ -34,30 +60,21 @@
       <div class="row">
         <div class="col-12 col-lg-6">
           <h3 class="mt-1 text-center, text-lg-start">
-            We elevate brands by providing innovative and imaginative
-            communications.
+            We are an innovative advertising firm based in Lexington, KY.
           </h3>
           <br />
           <p class="text-center, text-lg-start" >
-            Honoring the customer and demonstrating some love, will successfully
-            position a business for growth and profit. This may be a simple
-            idea, but it is one that needs knowledge and craftsmanship to
-            communicate a message of truth and authenticity.
-            <br />
-            We offer a complete toolkit of creative services, social media,
-            corporate communications, and marketing strategy to develop your
-            core business and expand into new revenue opportunities.
-            <br />
-            We take considerable pride in the work we deliver as befitting our
-            experience and maturity. We ask good questions and intently listen
-            to you, your team, customers, prospects, and other important
-            constituents. This ensures a match between what customers want, and
-            your unique and superior solution.
-            <br />
-            The result are high touch professional services to ensure your
-            satisfaction in all aspects of planning, delivery, and performance
-            to grow your business. We welcome the opportunity to do some great
-            work together.
+            Hancock Branding by Communications (HBxC) provides high-touch professional
+            services in all forms of creative, all media, corporate communications, business
+            knowledge, and marketing strategy. Clients from Madison to Main have counted
+            on us for planning, delivery, and performance to grow and expand into new
+            avenues and revenue opportunities.
+            <br/>
+            From our vast experiences, we take considerable pride in the detail of the work
+            we deliver. Our team intentionally listens to you, your team, customers,
+            prospects, and other important constituents to formulate the path for success.
+            This ensures a match between what customers want, and your unique and
+            superior offerings. We welcome the opportunity to work together.
           </p>
           <img
             height="75"
@@ -77,12 +94,12 @@
       </div>
     </div>
     <div id="Services" class="container">
-      <h1 class="mt-4 d-flex justify-content-center align-items-center">
+      <h1 class="m-4 d-flex justify-content-center align-items-center">
         Services
       </h1>
 
       <div class="row justify-content-center">
-        <div class="col-12 col-lg-4 text-start">
+        <div class="col-12 col-lg-4 text-start mb-3">
           <div class="text-center">
             <img
               height="350"
@@ -93,7 +110,7 @@
             <h3 class="m-1">Creative Services</h3>
           </div>
           <!-- <p>Placeholder text for section description.</p> -->
-          <div class="col-10 offset-1 text-start">
+          <div class="col-10 offset-1 text-start ">
             <ul class="ul-services">
               <li class="pb-1 pt-1">
                 Design and development of all types of video, audio, and
@@ -109,7 +126,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-start">
+        <div class="col-12 col-lg-4 text-start mb-3">
           <div class="text-center">
             <img
               height="350"
@@ -131,7 +148,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-start">
+        <div class="col-12 col-lg-4 text-start mb-3">
           <div class="text-center">
             <img
               height="350"
@@ -163,8 +180,8 @@
         </div>
         <div class="d-flex justify-content-center">
           <iframe
-            width="710"
-            height="400"
+            width="600"
+            height="350"
             src="https://www.youtube.com/embed/ScMzIvxBSi4?si=zSqCwwPyFZzsygMt"
             title="YouTube video player"
             frameborder="0"
@@ -187,6 +204,17 @@
             src="imgs/HBxC-CleintLogos-12-8-23.jpg"
           />
         </div>
+        <div class="col-12 mt-2 mb-5 text-center">
+          <h4 class="m-4">
+            <b>Big ideas with a local touch.</b>
+          </h4>
+          <h5>
+            We have worked with all types of clients, local and national. Importantly, we have
+            the skills and background to analyze virtually any industry or category and
+            uncover consumer motivations and match them to your unique benefits.
+            Let’s do good things together.
+          </h5>
+        </div>
       </div>
       <div class="row">
         <div
@@ -196,7 +224,7 @@
           style="height: 670px;"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active "  data-bs-interval="7000">
               <figure class="text-center">
                 <blockquote class="blockquote">
                   <h4>
@@ -216,14 +244,21 @@
                 </blockquote>
                 <figcaption class="blockquote-footer">
                   <h5>
-                    Head of Growth, Chartis -
-                    <cite title="Source Title">John Peebles</cite>
+                    <cite title="John Peebles">John Peebles</cite>
+                    <br>
+                    Head of Growth, Chartis 
+                    <br>
+                    ex SVP Digital Marketing &amp; CRM, Sotheby&#39;s
+                    <br>
+                    ex VP Online Marketing
+                    <br>
+                    Avis Budget Group
+                    
                   </h5>
                 </figcaption>
               </figure>
             </div>
-            <div class="carousel-item">
-              
+            <div class="carousel-item"  data-bs-interval="7000">
               <figure class="text-center">
                 <blockquote class="blockquote">
                   <h4>
@@ -239,13 +274,14 @@
                 </blockquote>
                 <figcaption class="blockquote-footer">
                   <h5>
-                    Russell Capital Management -
                     <cite title="Source Title">Jack Russell</cite>
+                    <br>
+                    Russell Capital Management
                   </h5>
                 </figcaption>
               </figure>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item"  data-bs-interval="7000">
               <figure class="text-center">
                 <blockquote class="blockquote">
                   <h4>
@@ -257,8 +293,88 @@
                 </blockquote>
                 <figcaption class="blockquote-footer">
                   <h5>
-                    FHTM -
-                    <cite title="Source Title">Paul Orberson</cite>
+                    <cite title="Source Title">Paul Orberson</cite> 
+                    <br>
+                    FHTM
+                    
+                  </h5>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item"  data-bs-interval="7000">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h4>
+                    We highly recommend HBxC marketing and production! These guys are
+                    fantastic! We appreciate their years of experience and wisdom!!!
+                  </h4>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <h5>
+                    <cite title="Source Title">Gordon Lewis</cite> 
+                    <br>
+                    Owner and Chef
+                    <br>
+                    <a style=" color: #6c757d;" href="https://www.suttonsrestaurant.com/">Sutton’s Family Italian Restaurant</a>
+                    
+                  </h5>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item"  data-bs-interval="7000">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h4>
+                    Jeff served us well during the pandemic and continues to meet all our graphic design needs. 
+                    He is professional, honest and responsive to a client whose needs
+                    are often immediate. We highly recommend him!
+                  </h4>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <h5>
+                    <cite title="Source Title">Ruth Ann Childers</cite> 
+                    <br>
+                    Director PR/Marketing
+                    <br>
+                    Baptist Health
+                  </h5>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item"  data-bs-interval="7000">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h4>
+                    Jeff has been our go-to designer for years now. Whether it’s creating a new campaign or a keen set of eyes on an existing one, we trust Jeff’s ability to offer technical expertise alongside thoughtful and compelling messaging.
+                  </h4>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <h5>
+                    <cite title="Source Title">Deanna McMichael</cite>
+                    <br>
+                    Direct Response Marketing Manager
+                    <br>
+                    Lakeview Health
+                    
+                  </h5>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item" data-bs-interval="7000">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <h4>
+                    Our private label marketing and sales materials needed a significant refresh this past year. Hancock Branding provided best-in-class creative that allowed us to better position the benefits of our program to potential clients.
+                  </h4>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <h5>
+                    <cite title="Source Title">Joe Cadle</cite>
+                    <br>
+                    VP of Marketing
+                    <br>
+                    Designs for Health
+                    
                   </h5>
                 </figcaption>
               </figure>
@@ -274,7 +390,7 @@
             <form
               target="_blank"
               id="emailForm"
-              action="https://formsubmit.co/hall.logan@2819studios.com"
+              action="https://formsubmit.co/lsmith@hbxc.io"
               method="POST"
             >
               <div class="row">
@@ -333,7 +449,13 @@
           <h5 style="font-weight: 500;">
             We would love to hear from you and hope you will connect via this email form. <br/>
             Call or text us at: <a href="tel:3476731850">(347) 673-1850</a><br/>
-            We are also available on Facebook: <a href="https://www.facebook.com/HBXCIO">https://www.facebook.com/HBXCIO</a>
+            We are also available on Facebook <br/> <br/> 
+            <a href="https://www.facebook.com/HBXCIO" style="text-decoration:none" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg>
+            </a>
           </h5>
           </p>
         </div>
@@ -341,25 +463,12 @@
       <!-- </div> -->
     </div>
     <footer id="footer" class="bg-color"></footer>
+    
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-7XM71R5ETF"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-7XM71R5ETF");
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
