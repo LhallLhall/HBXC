@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+}
+
+
 #Cover {
     height: 100vh;
     background-image: url("imgs/@HBxC_StreetSignAdobeStock_139154492 (4).jpg");
@@ -58,15 +63,20 @@
 .hidden {
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s 1s, opacity 1s linear;
+    transition: visibility 0s 1s, opacity 1s ease-in-out;
 }
 
-.over {margin: 0; height: 100%; overflow: hidden}
+.over {
+    margin: 0;
+    height: 100%; 
+    overflow: hidden;
+}
 
 .gif {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 33% 50%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -97,7 +107,6 @@
 
   @media screen and (max-width: 800px) {
     .img-resize {
-        height: 600px;
         width: 600px;
     } 
     #Cover {
@@ -107,7 +116,7 @@
 
   @media screen and (max-width: 600px) {
     .img-resize {
-        height: 330px;
+        
         width: 400px;
     } 
 
