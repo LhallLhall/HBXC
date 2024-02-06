@@ -123,13 +123,20 @@ html {
     .img-resize-about {
         width: 350px
     }
+
+    .video {
+        width: 300px;
+    }
     
   }
 
   @media screen and (max-width: 471px) {
     .coverSpacer{
-        margin-top: 600px;
+        margin-top: 500px;
     }
+    .img-resize {
+        width: 300px;
+    } 
   }
 
   @media screen and (max-width: 371px) {
