@@ -112,12 +112,15 @@ html {
     #Cover {
         background-position: 45% 50%;
     }
+    .video {
+        width: 500px;
+    }
   }
 
   @media screen and (max-width: 600px) {
     .img-resize {
         
-        width: 400px;
+        width: 500px;
     } 
 
     .img-resize-about {
@@ -125,7 +128,7 @@ html {
     }
 
     .video {
-        width: 300px;
+        width: 400px;
     }
     
   }
@@ -135,8 +138,11 @@ html {
         margin-top: 500px;
     }
     .img-resize {
-        width: 300px;
+        width: 400px;
     } 
+    .video {
+        width: 300px;
+    }
   }
 
   @media screen and (max-width: 371px) {
@@ -145,8 +151,8 @@ html {
         width: 250px;
     }
     .img-resize {
-        width: 290px;
-        height: 230px;
+        width: 370px;
+        /* height: 230px; */
     }
     .img-resize-about {
         width: 300px;
