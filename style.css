@@ -5,11 +5,20 @@ html {
 
 #Cover {
     height: 100vh;
-    background-image: url("imgs/@HBxC_StreetSignAdobeStock_139154492 (4).jpg");
+    background-image: url("imgs/HBxCWebsite24MainMadisonNYImageSizedforLogan-Final.gif");
     background-position: 45% 45%;
     background-size: cover;
     background-repeat: no-repeat;
-}
+    /* animation: createBox 1s; */
+} 
+/* @keyframes createBox {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  } */
 
 #Services {
     margin-top: 200px;
@@ -80,6 +89,16 @@ html {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+
+.background-bio {
+    background-image: url("imgs/HBxC-BiosBkgrd.jpg");
+    background-size: cover;
+}
+
+.fix {
+    display: inline-block!important;
 }
 
 @media screen and (max-width: 1490px) {
