@@ -10,15 +10,18 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     /* animation: createBox 1s; */
-} 
-/* @keyframes createBox {
-    from {
-      transform: scale(0);
-    }
-    to {
-      transform: scale(1);
-    }
-  } */
+}
+
+  .margin-facebook {
+    margin-left: 30px;
+  }
+
+  .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    color: #fff;
+    background-color: #395277;
+    border-color: #000000; /*set the color you want here*/
+    border-radius: 5px;
+}
 
 #Services {
     margin-top: 200px;
@@ -119,9 +122,11 @@ html {
         width: 500px;
     }
     .img-resize-logo {
-        height: 100px;
         width: 200px;
     }
+    .margin-facebook {
+        margin-left: 0px;
+      }
   }
 
   @media screen and (max-width: 800px) {
@@ -174,7 +179,26 @@ html {
         /* height: 230px; */
     }
     .img-resize-about {
-        width: 300px;
+        width: 270px;
+    }
+    .sizing {
+        width: 290px;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 300px) {
+    .img-services {
+        height: 250px;
+        width: 250px;
+    }
+    .img-resize {
+        width: 260px;
+        /* height: 230px; */
+    }
+    .img-resize-about {
+        width: 260px;
     }
     .sizing {
         width: 290px;
